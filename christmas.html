@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <title>Merry Christmas Bachhaaa ❤️</title>
@@ -71,12 +72,16 @@
 </head>
 <body>
 <audio id="music" src="music.mp3" autoplay loop></audio>
-<div class="snow"></div><div class="page hidden" id="p0">
+<div class="snow"></div>
+
+<div class="page hidden" id="p0">
   <img src="her.jpg" style="border-radius:50%;max-width:200px" />
   <h1>Bachhaaa ❤️</h1>
   <h2>Is Christmas, yeh site sirf tumhare liye hai 🎄✨</h2>
   <button onclick="next(0)">Start 💖</button>
-</div><div class="page" id="p1">
+</div>
+
+<div class="page" id="p1">
   <img id="slideshow" src="image1.jpg" style="max-width:80%;border-radius:20px" />
   <script>
     let slides=['image1.jpg','image2.jpg','image3.jpg'];
@@ -90,37 +95,49 @@
   <h2>To my Bachhaaa,
   <br>Ek chhoti si Christmas kahani… sirf humari ✨</h2>
   <button onclick="next(1)">Open 💝</button>
-</div><div class="page hidden" id="p2">
+</div>
+
+<div class="page hidden" id="p2">
   <img src="image1.jpg" />
   <h2>"All I want for Christmas is you —
   <br>sirf aaj nahi, har din, poori zindagi."</h2>
   <button onclick="next(2)">Next ➡️</button>
-</div><div class="page hidden" id="p3">
+</div>
+
+<div class="page hidden" id="p3">
   <img src="image2.jpg" />
   <h2>Christmas magical hota hai…
   <br>par tumse pyaar karna meri life ka
   <b>sabse bada gift</b> hai ❤️</h2>
   <button onclick="next(3)">Next ➡️</button>
-</div><div class="page hidden" id="p4">
+</div>
+
+<div class="page hidden" id="p4">
   <img src="image3.jpg" />
   <h2>Bachhaaa,
   <br>tum meri Christmas miracle ho,
   <br>aur meri forever wali happiness bhi 💞</h2>
   <button onclick="next(4)">Next ➡️</button>
-</div><div class="page hidden" id="p5">
+</div>
+
+<div class="page hidden" id="p5">
   <div id="gift" onclick="openGift()" style="font-size:80px;cursor:pointer">🎁</div>
   <h2 id="giftText" class="hidden">Surprise Bachhaaa 💝<br>Yeh sirf ek gift nahi…<br>meri poori zindagi tumhare naam ❤️</h2>
   <h2>This Christmas, main bahut cheezon ke liye grateful hoon…
   <br>lekin sabse zyada <b>tumhare liye</b>
   <br>aur humare pyaar ke liye ❤️</h2>
   <button onclick="next(5)">Last Page 💖</button>
-</div><div class="page hidden" id="p6">
+</div>
+
+<div class="page hidden" id="p6">
   <h1>One Last Thing… 💌</h1>
   <h2 onclick="revealNote()" style="cursor:pointer">Tap here Bachhaaa ❤️</h2>
   <p id="secret" class="hidden" style="max-width:600px;font-size:1.2em">Tum meri life ka sabse khoobsurat hissa ho.
   <br>Har mushkil, har khushi — main hamesha tumhare saath hoon 💞</p>
   <button onclick="next(6)">Next 💍</button>
-</div><script>
+</div>
+
+<script>
   function next(n) {
     document.getElementById('p' + n).classList.add('hidden');
     document.getElementById('p' + (n + 1)).classList.remove('hidden');
@@ -152,7 +169,8 @@ function launchHearts(){
   function sayNo(){alert('Hehe 😅 Bachhaaa, galat option dab gaya… YES try karo 💖');}
 
 function revealNote(){document.getElementById('secret').classList.remove('hidden');}
-</script><div class="page hidden" id="p7">
+</script>
+<div class="page hidden" id="p7">
   <h1>Bachhaaa… 💍</h1>
   <h2>Is Christmas, aur har Christmas ke baad bhi…<br>Will you be mine forever? ❤️</h2>
   <div id="proposal">
@@ -161,8 +179,8 @@ function revealNote(){document.getElementById('secret').classList.remove('hidden
   </div>
   <div id="ring" class="hidden" style="font-size:90px;margin-top:20px">💍 Bachhaaa ❤️</div>
 </div>
-<div class="watermark">
+  <div class="watermark">
   Made only for Bachhaaa ❤️
-</div>
+  </div>
 </body>
 </html>
